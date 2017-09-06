@@ -249,6 +249,7 @@ $(document).ready(function(){
     		clearInterval(tt1)
     	}
     	
+    	
     }
     function daojishi2(){
     	j2--;
@@ -280,6 +281,7 @@ $(document).ready(function(){
     ended.on("click",function(){
     	clearInterval(tt1);
     	clearInterval(tt2);
+//  	ended[0].style.color="red"
     })
 /*************************重新开始************************************/ 
     var restart=$(".restart");
@@ -302,6 +304,7 @@ $(document).ready(function(){
 	     flag=true;
 	     heiqi.removeClass("border");
 		 baiqi.removeClass("border");
+		 
 //		 $(".renji").addClass("border2");
 //		 $(".renren").addClass("border2");
     }
